@@ -4,10 +4,7 @@
  */
 package com.mycompany.youtube1;
 
-/**
- *
- * @author alvar
- */
+
 public class Usuario {
     public String nombre;
     public Video videoSubido;
@@ -36,12 +33,15 @@ public class Usuario {
         System.out.println("Usuario"+ nombre );
         if(videoSubido !=null){
             System.out.println("Ultimo video subido"+videoSubido.getTitulo());
+          
         
         }else{
             System.out.println("Aun no se han subido videos");
             
         }
       }
+
+    
     }
     
 

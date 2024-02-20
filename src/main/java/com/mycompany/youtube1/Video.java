@@ -4,10 +4,7 @@
  */
 package com.mycompany.youtube1;
 
-/**
- *
- * @author alvar
- */
+
 public class Video {
     public String titulo;
     public int duracionSegundos;
@@ -43,5 +40,9 @@ public class Video {
         this.url = url;
     }
     
-    
 }
+
+ 
+
+        
+
